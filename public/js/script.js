@@ -114,6 +114,28 @@ function login(username, password) {
  // Handling user inputs
  1200+ Number('250')
  
+ // String concatenation
+const firstname = 'Elsie ';
+const lastname = 'Sebiyam';
+firstname.trim() + ' ' + lastname.trim();
+
+// Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length
+firstname.toUpperCase();
+lastname.toUpperCase();
+lastname.charAt(6);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`
+
+// String conversion
+String(2014)
+
+
   
   
   
